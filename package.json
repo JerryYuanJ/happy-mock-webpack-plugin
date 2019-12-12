@@ -1,6 +1,6 @@
 {
   "name": "happy-mock-webpack-plugin",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "A simple data mock plugin for webpack based on webpack-dev-server",
   "main": "index.js",
   "directories": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint lib/*.js"
+    "lint": "eslint lib/*.js examples/**/*.js"
   },
   "keywords": [
     "mock",

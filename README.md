@@ -1,5 +1,7 @@
 # Happy-Mock-Webpack--Plugin
 
+[中文文档](./README_zh.md)
+
 This plugin provides a simple way to mock your data via webpack and webapck-dev-server. You can easily mock your own data
 with just a little configuration.
 
@@ -12,6 +14,8 @@ npm install happy-mock-webpack-plugin
 ```
 
 ## Usage
+
+[Example](./examples/base/README.md)
 
 In webpack config file, add this plugin instance:
 
@@ -108,7 +112,7 @@ Other files will be returned as it is.
 
   If you set it to `true`, every time you change your mock files, the browser will automatically refresh to make sure you can get the lateset data. If it's `false`, you need to refresh the browser by yourself to make it.
 
-  > Note: this field works only when `lazy=true`, otherwise the cache will take priority
+  > Note: this field works only when `lazy=true`, otherwise the cache will take priority and you need to restart the app to get the updated mock files.
 
 
 ## LICENSE

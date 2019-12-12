@@ -1,0 +1,23 @@
+{
+  "name": "test-mocker-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "happy-mock-webpack-plugin": "^0.0.13",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "html-webpack-plugin": "^3.2.0"
+  }
+}

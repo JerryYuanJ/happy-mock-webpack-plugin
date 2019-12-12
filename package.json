@@ -1,6 +1,6 @@
 {
   "name": "happy-mock-webpack-plugin",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "A simple data mock plugin for webpack based on webpack-dev-server",
   "main": "index.js",
   "directories": {

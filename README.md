@@ -1,4 +1,4 @@
-# Happy-Webpack-Mock-Plugin
+# Happy-Mock-Webpack--Plugin
 
 This plugin provides a simple way to mock your data via webpack and webapck-dev-server. You can easily mock your own data
 with just a little configuration.
@@ -8,7 +8,7 @@ with just a little configuration.
 ## Install
 
 ```bash
-npm install happy-webpack-mock-plugin
+npm install happy-mock-webpack-plugin
 ```
 
 ## Usage
@@ -16,14 +16,14 @@ npm install happy-webpack-mock-plugin
 In webpack config file, add this plugin instance:
 
 ```js
-const HappyWebpackMockPlugin = require('happy-webpack-mock-plugin')
+const HappyMockMockPlugin = require('happy-mock-webpack-plugin')
 const path = require('path')
 
 module.exports = {
   // other configs
   plugins: [
     // other plugins...
-    new HappyWebpackMockPlugin({
+    new HappyMockMockPlugin({
       root: path.resolve(__dirname, 'mock'),
       lazy: true,
       autoRefresh: true
